@@ -19,6 +19,10 @@
     --icon-spacing: 2.6rem;
 }
 
+/* 关闭垂直滚动条 */
+::-webkit-scrollbar {
+    width: 0;
+}
 
 
 html, body {
@@ -241,6 +245,11 @@ html, body {
 
 .banner-title {
     position: absolute;
+    font-size: 7rem;
+    letter-spacing: 0.3rem;
+    transform: translateY(-70%);
+    color: rgb(250,248,244);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
     z-index: 2;
 }
 
@@ -254,7 +263,6 @@ html, body {
     height: 200rem;
     max-height: 200rem;
     object-fit: cover;
-    z-index: 1003;
     grid-column-gap: 1rem;
     grid-template-columns: auto 20rem 62% auto;
     grid-template-rows: 5.5rem auto;
@@ -268,7 +276,7 @@ html, body {
     height: 100%;
     border-radius: 15px;
     background-color: rgb(250,248,244);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar {
