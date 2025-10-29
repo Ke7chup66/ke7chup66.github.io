@@ -142,15 +142,15 @@ html, body {
     line-height: 1.2em;
 }
 
-.nav-component-menu {
-    display: flex;
-    list-style: none;
-}
-
 .icons-box {
     position: relative;
     margin-left: 4.5%;
     transition: all 0.3s ease;
+}
+
+.nav-component-menu {
+    display: flex;
+    list-style: none;
 }
 
 .nav-icons {
@@ -204,7 +204,6 @@ html, body {
 }
 
 .nav-component path{
-    font-weight: 500;
     transition: color 0.3s ease;
     text-decoration: none;
 }
@@ -481,7 +480,10 @@ html, body {
 }
 
 @media (max-width: 768px) {
-    .logo-box {
+    :root {
+        --icon-spacing: 0.9rem;
+    }
+    .nav-component-bgm {
         display: none;
     }
 }
