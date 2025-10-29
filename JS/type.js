@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded',function(){
         "MAY THE PEACE BE WITH US",
         "任尔逆流万千苦,坚持无悔意无休",
         "专注自己,世界便鸦雀无声",
-        "一群打算上太空的疯子,我觉得还挺酷的"
+        "一群打算上太空的疯子,我觉得还挺酷的",
+        "你不能只在赢的时候，说爱你的国家"
     ];
 
     let currentTextIndex = 0;

@@ -480,3 +480,9 @@ html, body {
 
 }
 
+@media (max-width: 768px) {
+    .logo-box {
+        display: none;
+    }
+}
+
