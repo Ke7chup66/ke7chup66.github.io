@@ -17,6 +17,8 @@
     --nav-font-size-zh: 1em;
     --nav-item-spacing: 3.2rem;
     --icon-spacing: 2.6rem;
+    --banner-title-size: 7rem;
+    --banner-subtitle-size: 1.5rem;
 }
 
 /* 关闭垂直滚动条 */
@@ -258,7 +260,7 @@ html, body {
 
 .banner-title {
     grid-area: title;
-    font-size: 7rem;
+    font-size: var(--banner-title-size);
     letter-spacing: 0.3rem;
     color: rgb(250,248,244);
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
@@ -267,7 +269,7 @@ html, body {
 
 .banner-subtitle {
     grid-area: subtitle;
-    font-size: 1.5rem;
+    font-size: var(--banner-subtitle-size);
     letter-spacing: 0.3rem;
     color: rgb(250,248,244);
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
@@ -423,6 +425,8 @@ html, body {
     --nav-font-size-zh: 0.667em;
     --nav-item-spacing: 2.133rem;
     --icon-spacing: 1.733rem;
+    --banner-title-size: 5rem;
+    --banner-subtitle-size: 1rem;
     }
 }
 
@@ -431,6 +435,7 @@ html, body {
         --nav-item-spacing: 0.61rem;
         --nav-font-size-en: 1.2em;
         --nav-font-size-zh: 0.8em;
+        --banner-title-size: 3rem;
     }
 
     .nav-menu {
