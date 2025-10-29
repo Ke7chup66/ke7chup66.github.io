@@ -245,6 +245,7 @@ html, body {
 
 .banner {
     display: grid;
+    position: absolute;
     grid-template-rows: auto 80px;
     grid-template-areas:
         "title"
@@ -252,7 +253,6 @@ html, body {
     justify-items: center;
     line-height: 5rem;
     align-items: center;
-    position: absolute;
     transform: translateY(-20%);
 }
 
